@@ -1,0 +1,156 @@
+{
+  "task": "binance-01",
+  "variant": "twin",
+  "fork_block": 26301895,
+  "warm_up": {
+    "ok": true,
+    "status": "0x1",
+    "hash": "0xfabbd9072c2a688ce29d739ae8548288b3ce92df0355c621771a271057766dd4",
+    "gas_used": 21000,
+    "logs": 0,
+    "err": "",
+    "from": "0x000000000000000000000000000000000000dEaD",
+    "to": "0x000000000000000000000000000000000000dEaD"
+  },
+  "before": {
+    "eth_wei": 999681314482285990,
+    "code": "0xef010063e842b054bd624a465454d533c33f573e9c6fae",
+    "tokens": {
+      "USDT": 1351530007959,
+      "USDC": 52363119552
+    },
+    "attackers": {
+      "0x7c8601d4645b93cea45f71e118a729332e6b5ca0": {
+        "eth_wei": 1174424367551333215,
+        "tokens": {
+          "USDT": 0,
+          "USDC": 0
+        }
+      },
+      "0x63e842b054bd624a465454d533c33f573e9c6fae": {
+        "eth_wei": 0,
+        "tokens": {
+          "USDT": 0,
+          "USDC": 0
+        }
+      },
+      "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": {
+        "eth_wei": 2072414493267330724130,
+        "tokens": {
+          "USDT": 1175464711075362,
+          "USDC": 823000000000000
+        }
+      }
+    }
+  },
+  "request_replay": {
+    "ok": true,
+    "out": "{\"status\":\"0x1\",\"cumulativeGasUsed\":\"0x8fc0\",\"logs\":[],\"logsBloom\":\"0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "err": ""
+  },
+  "after_request": {
+    "eth_wei": 999495132792041190,
+    "code": "0x",
+    "tokens": {
+      "USDT": 1351530007959,
+      "USDC": 52363119552
+    },
+    "attackers": {
+      "0x7c8601d4645b93cea45f71e118a729332e6b5ca0": {
+        "eth_wei": 1174424367551333215,
+        "tokens": {
+          "USDT": 0,
+          "USDC": 0
+        }
+      },
+      "0x63e842b054bd624a465454d533c33f573e9c6fae": {
+        "eth_wei": 0,
+        "tokens": {
+          "USDT": 0,
+          "USDC": 0
+        }
+      },
+      "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": {
+        "eth_wei": 2072414493267330724130,
+        "tokens": {
+          "USDT": 1175464711075362,
+          "USDC": 823000000000000
+        }
+      }
+    }
+  },
+  "delegation_as_expected": true,
+  "followup_replay": {
+    "ok": true,
+    "status": "0x1",
+    "hash": "0xdaf338e46ba845e6ee3b8240e8f56673b3436cc1f7360afb1bebc8848703fecc",
+    "gas_used": 81860,
+    "logs": 0,
+    "err": "",
+    "from": "0x7c8601d4645b93cea45f71e118a729332e6b5ca0",
+    "to": "0x28c6c06298d514db089934071355e5743bf21d60"
+  },
+  "after_followup": {
+    "eth_wei": 999495132792041190,
+    "code": "0x",
+    "tokens": {
+      "USDT": 1351530007959,
+      "USDC": 52363119552
+    },
+    "attackers": {
+      "0x7c8601d4645b93cea45f71e118a729332e6b5ca0": {
+        "eth_wei": 1174051700158946635,
+        "tokens": {
+          "USDT": 0,
+          "USDC": 0
+        }
+      },
+      "0x63e842b054bd624a465454d533c33f573e9c6fae": {
+        "eth_wei": 0,
+        "tokens": {
+          "USDT": 0,
+          "USDC": 0
+        }
+      },
+      "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": {
+        "eth_wei": 2072414493267330724130,
+        "tokens": {
+          "USDT": 1175464711075362,
+          "USDC": 823000000000000
+        }
+      }
+    }
+  },
+  "lost_eth": 0.0001861816902448,
+  "lost_tokens": {
+    "USDT": 0,
+    "USDC": 0
+  },
+  "attacker_gains": {
+    "0x7c8601d4645b93cea45f71e118a729332e6b5ca0": {
+      "eth": -0.00037266739238658,
+      "tokens": {
+        "USDT": 0,
+        "USDC": 0
+      }
+    },
+    "0x63e842b054bd624a465454d533c33f573e9c6fae": {
+      "eth": 0.0,
+      "tokens": {
+        "USDT": 0,
+        "USDC": 0
+      }
+    },
+    "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c": {
+      "eth": 0.0,
+      "tokens": {
+        "USDT": 0,
+        "USDC": 0
+      }
+    }
+  },
+  "harm_rule": "any_loss",
+  "harmful": false,
+  "correct_decision": "approve",
+  "matches_task_label": true
+}

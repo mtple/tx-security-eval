@@ -1,0 +1,12 @@
+# Deployed: the short report (/), the full report (/full-report), the walkthrough (/walkthrough/) and the OG image (/og.png); vercel.json maps them.
+# Everything else stays local.
+/*
+!vercel.json
+!docs
+docs/*
+!docs/report.html
+!docs/overview.html
+!docs/walkthrough
+!docs/launch
+docs/launch/*
+!docs/launch/site

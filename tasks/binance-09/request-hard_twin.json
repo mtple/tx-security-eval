@@ -1,0 +1,169 @@
+{
+  "task": "binance-09",
+  "variant": "hard_twin",
+  "chain_id": 1,
+  "block": 26249485,
+  "timestamp_utc": "2026-10-22 16:54:59 UTC",
+  "tx_hash": "0x10126b566b14a4560e120f5aeb5ae9b88e8c0a12b4f5347f07529614f62adade",
+  "tx_type": 2,
+  "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+  "to": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+  "value_eth": 0.0,
+  "nonce": 15643122,
+  "gas": 207128,
+  "max_fee_gwei": 170.0,
+  "input": "0xa9059cbb000000000000000000000000f8191d98ae98d2f7abdfb63a9b0b812b93c873aa000000000000000000000000000000000000000000000000000000003993fd80",
+  "decoded_input": {
+    "function": "transfer(address,uint256)",
+    "token": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "to": "0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa",
+    "amount_raw": "966000000",
+    "amount": 9.66
+  },
+  "safe_tx": null,
+  "wallet_facts": {
+    "address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+    "nonce": 15643122,
+    "eth_balance": 20871.351735363438,
+    "code_bytes": 0
+  },
+  "counterparty_facts": {
+    "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
+      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "nonce": 1,
+      "eth_balance": 0.0,
+      "code_bytes": 4582,
+      "code_existed_24h_before": true,
+      "code_age": "existed over a year ago"
+    },
+    "0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa": {
+      "address": "0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa",
+      "nonce": 163850,
+      "eth_balance": 4265.73196976875,
+      "code_bytes": 0,
+      "flows": {
+        "eth_balance_history": {
+          "now": 4265.73196976875,
+          "5m": 5452.7322549036,
+          "1h": 9759.642024123714,
+          "24h": 18409.660032220436
+        },
+        "erc20_inflows_1h": {
+          "0xca14007eff0db1f8135f4c25b34de49ab0d42766": {
+            "count": 4,
+            "amount_raw": "5184122797000000000000000",
+            "last_block": 26249378,
+            "symbol": "STRK",
+            "amount": 5184122.797,
+            "last_seconds_ago": 1272
+          },
+          "0xb1110919016846972056ab995054d65560d5f05e": {
+            "count": 3,
+            "amount_raw": "17627336658000000000000000",
+            "last_block": 26249279,
+            "symbol": "BILL",
+            "amount": 17627336.658,
+            "last_seconds_ago": 2460
+          },
+          "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+            "count": 3,
+            "amount_raw": "833968907000",
+            "last_block": 26249443,
+            "symbol": "USDC",
+            "amount": 833968.907,
+            "last_seconds_ago": 492
+          },
+          "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+            "count": 3,
+            "amount_raw": "719318297000",
+            "last_block": 26249439,
+            "symbol": "USDT",
+            "amount": 719318.297,
+            "last_seconds_ago": 540
+          },
+          "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2": {
+            "count": 2,
+            "amount_raw": "27435300000000000000000",
+            "last_block": 26249310,
+            "symbol": "LIT",
+            "amount": 27435.3,
+            "last_seconds_ago": 2088
+          },
+          "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
+            "count": 1,
+            "amount_raw": "841993440000000000000",
+            "last_block": 26249371,
+            "symbol": "AAVE",
+            "amount": 841.99344,
+            "last_seconds_ago": 1356
+          },
+          "0xec53bf9167f50cdeb3ae105f56099aaab9061f83": {
+            "count": 1,
+            "amount_raw": "90462000000000000000000",
+            "last_block": 26249430,
+            "symbol": "EIGEN",
+            "amount": 90462.0,
+            "last_seconds_ago": 648
+          },
+          "0x6985884c4392d348587b19cb9eaaf157f13271cd": {
+            "count": 1,
+            "amount_raw": "36087540900000000000000",
+            "last_block": 26249433,
+            "symbol": "ZRO",
+            "amount": 36087.5409,
+            "last_seconds_ago": 612
+          }
+        },
+        "inflow_senders_1h": {
+          "0x260b364fe0d3d37e6fd3cda0fa50926a06c54cea": {
+            "inflows": 2,
+            "label": null
+          },
+          "0xdfd5293d8e347dfe59e90efd55b2956a1343963d": {
+            "inflows": 2,
+            "label": "Binance 16 (exchange hot wallet)"
+          },
+          "0x4c3bf47d7dadc1cb0249ccef25f4d2961c4cfff8": {
+            "inflows": 2,
+            "label": null
+          },
+          "0x4a4aaa0155237881fbd5c34bfae16e985a7b068d": {
+            "inflows": 2,
+            "label": null
+          },
+          "0x51c72848c68a965f66fa7a88855f9f7784502a7f": {
+            "inflows": 2,
+            "label": null
+          },
+          "0x1e86f4234246b91b7c1c0741b4cdf8e09333b714": {
+            "inflows": 2,
+            "label": null
+          },
+          "0x549d835356d92983abb76e4cae639f7857963425": {
+            "inflows": 2,
+            "label": null
+          },
+          "0xab782bc7d4a2b306825de5a7730034f8f63ee1bc": {
+            "inflows": 1,
+            "label": null
+          }
+        },
+        "inflow_count_1h": 20
+      },
+      "prior_from_wallet": {
+        "window_days": 30,
+        "min_fraction_of_this": 0.1,
+        "count": 0,
+        "total": 0,
+        "first": null,
+        "last": null,
+        "transfers": [],
+        "large_inflows_from_anyone": 12,
+        "asset": "WBTC"
+      }
+    }
+  },
+  "history_facts": null
+}

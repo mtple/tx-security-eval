@@ -1,0 +1,202 @@
+{
+  "task": "bybit-03",
+  "variant": "hard_twin",
+  "chain_id": 1,
+  "block": 21731071,
+  "timestamp_utc": "2025-01-29 15:26:35 UTC",
+  "tx_hash": "0x631bb8e5bd386722d8e3f8dd54ca887db0eb5a4bb8b30ce1be6fb6c12714193d",
+  "tx_type": 2,
+  "from": "0x828424517f9f04015db02169f4026d57b2b07229",
+  "to": "0x1db92e2eebc8e0c075a02bea49a2935bcd2dfcf4",
+  "value_eth": 0.0,
+  "nonce": 439,
+  "gas": 158207,
+  "max_fee_gwei": 7.1,
+  "input": "0x6a761202000000000000000000000000f89d7b9c864f589bbf53a82105107622b35eaa4000000000000000000000000000000000000000000000065a4da25d3016c0000000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b2b100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c3619b5fb93ae057d68c38f51b9d9968120ffa1821391b101161acfcbe0a9b5e07221bea528feefedcf664b5d89c49532a297101d0eed154f633dbf1ba5b64ab4f2091cfba9ccd8d29944a7750e7e8c32a98eb624632301c847d51d4b9b7c186476a1fcdfce64372fce829dc55af0407f958854cdb3de6f764ddbc85c7ec9759545920000000000000000000000000828424517f9f04015db02169f4026d57b2b072290000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000",
+  "decoded_input": {
+    "selector": "0x6a761202",
+    "candidate_signatures": [
+      "execTransaction(address,uint256,bytes,uint8,uint256,uint256,uint256,address,address,bytes)"
+    ]
+  },
+  "safe_tx": {
+    "to": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+    "value_eth": 30000.0,
+    "data": "0x",
+    "operation": 0,
+    "operation_name": "CALL",
+    "safe_tx_gas": 45745,
+    "base_gas": 0,
+    "gas_price": 0,
+    "gas_token": "0x0000000000000000000000000000000000000000",
+    "refund_receiver": "0x0000000000000000000000000000000000000000",
+    "signature_count": 3,
+    "decoded_data": null
+  },
+  "wallet_facts": {
+    "address": "0x1Db92e2EeBC8E0c075a02BeA49a2935BcD2dFCF4",
+    "nonce": 1,
+    "eth_balance": 416346.7688584047,
+    "code_bytes": 170,
+    "safe": {
+      "owners": [
+        "0x1F4EB0a903619ac168b19A82F1a6e2e426522211",
+        "0x828424517F9F04015db02169f4026D57B2B07229",
+        "0x3Cc3A225769900e003E264dd4CB43E90896BC21A",
+        "0x2cDD560058D5ac32dc416AAa09Eaf93230c0B7B3",
+        "0xD367f8322b64F29faF71dDB5c1877dC9ED6EC644",
+        "0xe3dF2cCEAc61B1aFA311372ecC5B40A3A6585a9E"
+      ],
+      "threshold": 3,
+      "safe_nonce": 68,
+      "implementation": "0x34cfac646f301356faa8b21e94227e3583fe3f5f",
+      "version": "1.1.1"
+    }
+  },
+  "executor_facts": {
+    "address": "0x828424517f9f04015db02169f4026d57b2b07229",
+    "nonce": 439,
+    "eth_balance": 0.16491587889274473,
+    "code_bytes": 0,
+    "label": null
+  },
+  "counterparty_facts": {
+    "0xf89d7b9c864f589bbf53a82105107622b35eaa40": {
+      "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+      "nonce": 5438079,
+      "eth_balance": 32629.471507673374,
+      "code_bytes": 0,
+      "label": "Bybit hot wallet (exchange hot wallet; nonce in the millions)",
+      "flows": {
+        "eth_balance_history": {
+          "now": 32629.471507673374,
+          "5m": 32627.560511042877,
+          "1h": 33200.63876955841,
+          "24h": 27811.875343243744
+        },
+        "erc20_inflows_1h": {
+          "0xdac17f958d2ee523a2206206994597c13d831ec7": {
+            "count": 157,
+            "amount_raw": "6114455091033",
+            "last_block": 21731051,
+            "symbol": "USDT",
+            "amount": 6114455.091033,
+            "last_seconds_ago": 228
+          },
+          "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
+            "count": 39,
+            "amount_raw": "30455093093709",
+            "last_block": 21731051,
+            "symbol": "USDC",
+            "amount": 30455093.093709,
+            "last_seconds_ago": 228
+          },
+          "0x76a0e27618462bdac7a29104bdcfff4e6bfcea2d": {
+            "count": 20,
+            "amount_raw": "4121680193839560982232",
+            "last_block": 21731051,
+            "symbol": "SOSO",
+            "amount": 4121.680193839561,
+            "last_seconds_ago": 228
+          },
+          "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3": {
+            "count": 8,
+            "amount_raw": "553835445840610000000000",
+            "last_block": 21731051,
+            "symbol": "ONDO",
+            "amount": 553835.44584061,
+            "last_seconds_ago": 228
+          },
+          "0x37fc4b48ce93469dbea9918468993c735049642a": {
+            "count": 7,
+            "amount_raw": "6267904080000000079167488",
+            "last_block": 21730927,
+            "symbol": "CBX",
+            "amount": 6267904.08,
+            "last_seconds_ago": 1716
+          },
+          "0x57e114b691db790c35207b2e685d4a43181e6061": {
+            "count": 5,
+            "amount_raw": "503235956351900000000000",
+            "last_block": 21731026,
+            "symbol": "ENA",
+            "amount": 503235.9563519,
+            "last_seconds_ago": 528
+          },
+          "0x6982508145454ce325ddbe47a25d4ec3d2311933": {
+            "count": 5,
+            "amount_raw": "17938475287338351321497665818",
+            "last_block": 21731051,
+            "symbol": "PEPE",
+            "amount": 17938475287.338352,
+            "last_seconds_ago": 228
+          },
+          "0xed04915c23f00a313a544955524eb7dbd823143d": {
+            "count": 4,
+            "amount_raw": "331378288369269",
+            "last_block": 21731026,
+            "symbol": "ACH",
+            "amount": 3313782.88369269,
+            "last_seconds_ago": 528
+          }
+        },
+        "inflow_senders_1h": {
+          "0x985b31002b51eae2c7b2dc2a0061b3ee89f74c2c": {
+            "inflows": 4,
+            "label": null
+          },
+          "0xe0f811828b40f83ae77603cf7ceb0328bb4e3d8a": {
+            "inflows": 4,
+            "label": null
+          },
+          "0x14a8489a69ea53d1b90ba7cec4bfdfd31483d377": {
+            "inflows": 4,
+            "label": null
+          },
+          "0x6035f113e42fa77cc548ed069837580258d3346e": {
+            "inflows": 3,
+            "label": null
+          },
+          "0xd9e9bdc7b308e0a2c0bafb593ae30d5e88aef756": {
+            "inflows": 3,
+            "label": null
+          },
+          "0x27cb423bb34d1d2f929ce268049a7fd4982c5dd2": {
+            "inflows": 3,
+            "label": null
+          },
+          "0x742eb54bb0ca1ad23b30f1a069351eb8480a24e0": {
+            "inflows": 3,
+            "label": null
+          },
+          "0xe401a6a38024d8f5ab88f1b08cad476ccaca45e8": {
+            "inflows": 3,
+            "label": null
+          }
+        },
+        "inflow_count_1h": 328
+      }
+    }
+  },
+  "history_facts": {
+    "source": "tasks/bybit-history.json",
+    "prior_executed": 68,
+    "last_executed_utc": "2025-01-14T11:23:35Z",
+    "value_transfers": 60,
+    "value_transfer_sizes_eth": {
+      "min": 0.000144,
+      "median": 20000.0,
+      "max": 60000.0
+    },
+    "distinct_recipients": 8,
+    "prior_delegatecalls": 0,
+    "per_counterparty": {
+      "0xf89d7b9c864f589bbf53a82105107622b35eaa40": {
+        "prior_transfers": 0,
+        "total_eth": 0,
+        "first_utc": null,
+        "last_utc": null
+      }
+    }
+  }
+}

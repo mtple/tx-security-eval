@@ -1,0 +1,127 @@
+{
+  "task": "binance-07",
+  "variant": "twin",
+  "chain_id": 1,
+  "block": 26300623,
+  "timestamp_utc": "2026-10-29 19:54:59 UTC",
+  "tx_hash": "0x7b076d31c7d0293ac621a020e898a074e4c06201c74d5c2a0b3cb53b43196b9c",
+  "tx_type": 2,
+  "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+  "to": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+  "value_eth": 0.0,
+  "nonce": 15703273,
+  "gas": 207128,
+  "max_fee_gwei": 170.0,
+  "input": "0xa9059cbb0000000000000000000000005cbd15d48ac85035f57736dffd3f279f923d267d00000000000000000000000000000000000000000000000000000000006818bd",
+  "decoded_input": {
+    "function": "transfer(address,uint256)",
+    "token": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+    "symbol": "XAUt",
+    "decimals": 6,
+    "to": "0x5cbd15d48ac85035f57736dffd3f279f923d267d",
+    "amount_raw": "6822077",
+    "amount": 6.822077
+  },
+  "safe_tx": null,
+  "wallet_facts": {
+    "address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+    "nonce": 15703272,
+    "eth_balance": 29466.457484089195,
+    "code_bytes": 0
+  },
+  "counterparty_facts": {
+    "0x5cbd15d48ac85035f57736dffd3f279f923d267d": {
+      "address": "0x5cbd15d48ac85035f57736dffd3f279f923d267d",
+      "nonce": 79189,
+      "eth_balance": 0.02657934514391424,
+      "code_bytes": 0,
+      "flows": {
+        "eth_balance_history": {
+          "now": 0.02657934514391424,
+          "5m": 0.026653982894031526,
+          "1h": 0.026813358197828287,
+          "24h": 0.012926397316586392
+        },
+        "erc20_inflows_1h": {
+          "0xc00e94cb662c3520282e6f5717214004a7f26888": {
+            "count": 2,
+            "amount_raw": "535803078740000000000",
+            "last_block": 26300546,
+            "symbol": "COMP",
+            "amount": 535.80307874,
+            "last_seconds_ago": 912
+          },
+          "0xd8a271974e8edae9d7b58e3370dc1669427503f4": {
+            "count": 1,
+            "amount_raw": "195060707620770000000000",
+            "last_block": 26300464,
+            "symbol": "BLEND",
+            "amount": 195060.70762077,
+            "last_seconds_ago": 1896
+          }
+        },
+        "inflow_senders_1h": {
+          "0xdf8a924ae294643bcba29e98bab1eac88b8737fa": {
+            "inflows": 1,
+            "label": null
+          },
+          "0xdfd5293d8e347dfe59e90efd55b2956a1343963d": {
+            "inflows": 1,
+            "label": "Binance 16 (exchange hot wallet)"
+          },
+          "0x91d40e4818f4d4c57b4578d9eca6afc92ac8debe": {
+            "inflows": 1,
+            "label": null
+          }
+        },
+        "inflow_count_1h": 3
+      },
+      "prior_from_wallet": {
+        "window_days": 30,
+        "min_fraction_of_this": 0.1,
+        "count": 5,
+        "total": 54.288352,
+        "first": "6.5 days before",
+        "last": "0.3 days before",
+        "transfers": [
+          {
+            "block": 26253487,
+            "tx": "0x4b0115334bbb5e91d2863450463d7a6b6059e0a48f695aba34f64450a6b957b2",
+            "amount": 7.480496
+          },
+          {
+            "block": 26253778,
+            "tx": "0xfc00563b1f82d6489f0a4edc1e564f2bf9b9d3caf6e6eb12f6b6e3634e408f0c",
+            "amount": 17.497533
+          },
+          {
+            "block": 26258606,
+            "tx": "0x0b93a542b43504f7eeec64742d0109d4c0732997a1f4234706d5ea8c61ddb028",
+            "amount": 13.57248
+          },
+          {
+            "block": 26263370,
+            "tx": "0x7a2b6688f38ae9426755490da3e426327b891dd497244336eace3be22c7581d4",
+            "amount": 8.945022
+          },
+          {
+            "block": 26298465,
+            "tx": "0x1e88a1c28753e5a731915e785300bc3f700220743c5457a22ffb37c6eea48f50",
+            "amount": 6.792821
+          }
+        ],
+        "large_inflows_from_anyone": 12,
+        "asset": "XAUt"
+      }
+    },
+    "0x68749665ff8d2d112fa859aa293f07a622782f38": {
+      "address": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+      "nonce": 1,
+      "eth_balance": 0.0,
+      "code_bytes": 2141,
+      "code_existed_24h_before": true,
+      "code_age": "existed over a year ago"
+    }
+  },
+  "history_facts": null
+}

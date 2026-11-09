@@ -1,0 +1,126 @@
+{
+  "task": "adv-02",
+  "variant": "twin",
+  "chain_id": 1,
+  "block": 26300772,
+  "timestamp_utc": "2026-10-29 20:24:47 UTC",
+  "tx_hash": "0x51f263fa50966df6bbd7f8c6e6e99e3791c94444f7c4343b2fef1ee2d62fd39f",
+  "tx_type": 2,
+  "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+  "to": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+  "value_eth": 2500.0,
+  "nonce": 15703481,
+  "gas": 21000,
+  "max_fee_gwei": 170.0,
+  "input": "0x",
+  "decoded_input": null,
+  "safe_tx": null,
+  "wallet_facts": {
+    "address": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+    "nonce": 15703481,
+    "eth_balance": 29459.120816090246,
+    "code_bytes": 0
+  },
+  "counterparty_facts": {
+    "0xf89d7b9c864f589bbf53a82105107622b35eaa40": {
+      "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+      "nonce": 7324982,
+      "eth_balance": 1274.8000783304733,
+      "code_bytes": 0,
+      "label": "Bybit hot wallet (exchange hot wallet; nonce in the millions)",
+      "flows": {
+        "eth_balance_history": {
+          "now": 1274.8000783304733,
+          "5m": 1274.8000783304733,
+          "1h": 1274.8016340999452,
+          "24h": 11271.382533298194
+        },
+        "erc20_inflows_1h": {
+          "0x6e6f6d696e61decd6605bd4a57836c5db6923340": {
+            "count": 8,
+            "amount_raw": "8362397839172330000000000",
+            "last_block": 26300718,
+            "symbol": "NOM",
+            "amount": 8362397.83917233,
+            "last_seconds_ago": 636
+          },
+          "0xe1be424f442d0687129128c6c38aace44f8c8dbc": {
+            "count": 1,
+            "amount_raw": "46913939014077396351700",
+            "last_block": 26300493,
+            "symbol": "ZKP",
+            "amount": 46913.9390140774,
+            "last_seconds_ago": 3336
+          },
+          "0x99991c6aabba5a096f24f250b73580f5179b9999": {
+            "count": 1,
+            "amount_raw": "152845000000000000000000",
+            "last_block": 26300653,
+            "symbol": "CAP",
+            "amount": 152845.0,
+            "last_seconds_ago": 1416
+          }
+        },
+        "inflow_senders_1h": {
+          "0x0b60c1ee6d01c3d5704eeae6c12552c7a63beead": {
+            "inflows": 1,
+            "label": null
+          },
+          "0xde0e4baa56149d7d0fb0cc94e2c82a0fc3387d6c": {
+            "inflows": 1,
+            "label": null
+          },
+          "0x95ec0051bd1f6ce5184970669c10116e47949dd3": {
+            "inflows": 1,
+            "label": null
+          },
+          "0x0bb824e56c1a2106981a62fc6a790765a5941514": {
+            "inflows": 1,
+            "label": null
+          },
+          "0xad0053db031f108acd83cfae13d000eddfe09442": {
+            "inflows": 1,
+            "label": null
+          },
+          "0x53fbf30b7be434c2177c14ae7afaf7136f351464": {
+            "inflows": 1,
+            "label": null
+          },
+          "0xcf1de1711c2e58f5398d70ad0541fd5ce59410fd": {
+            "inflows": 1,
+            "label": null
+          },
+          "0x95a1fc9b5501703a99b813421fc2bb57258aff80": {
+            "inflows": 1,
+            "label": null
+          }
+        },
+        "inflow_count_1h": 10
+      },
+      "prior_from_wallet": {
+        "window_days": 30,
+        "min_fraction_of_this": 0.1,
+        "count": 2,
+        "total": 10499.99977,
+        "first": "29.4 days before",
+        "last": "8.6 days before",
+        "transfers": [
+          {
+            "block": 26089394,
+            "tx": "0x94d7fa33ff8439a0ea2fd3bb959e1e72c825ebca38fe1c9fd357fc32b38ab83d",
+            "amount": 4499.99992
+          },
+          {
+            "block": 26239199,
+            "tx": "0xb015129e5c769a3e8bf25df5a4448eba93dff776fdca558ae4b1e59a0bada79b",
+            "amount": 5999.99985
+          }
+        ],
+        "large_inflows_from_anyone": 8,
+        "traced": 8,
+        "asset": "ETH"
+      }
+    }
+  },
+  "history_facts": null
+}

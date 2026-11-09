@@ -1,0 +1,134 @@
+[
+ {
+  "model": "cc:claude-haiku-5-5",
+  "prompt": "default",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "cc:claude-opus-5-5",
+  "prompt": "default",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "cc:claude-sonnet-5-5",
+  "prompt": "default",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "codex:gpt-5.6-sol",
+  "prompt": "default",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "codex:gpt-5.6-sol",
+  "prompt": "v2",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "nous:deepseek/deepseek-v4-pro-0813",
+  "prompt": "default",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "nous:deepseek/deepseek-v4-pro-0813",
+  "prompt": "v2",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "nous:deepseek/deepseek-v4.1-flash-1017",
+  "prompt": "default",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "nous:deepseek/deepseek-v4.1-flash-1017",
+  "prompt": "v2",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "nous:upstage/solar-mini4",
+  "prompt": "default",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ },
+ {
+  "model": "nous:upstage/solar-mini4",
+  "prompt": "v2",
+  "task": "adv-06",
+  "variant": "twin",
+  "view": "flows",
+  "samples": [
+   0,
+   1,
+   2
+  ]
+ }
+]

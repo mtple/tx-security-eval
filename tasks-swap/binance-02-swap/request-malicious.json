@@ -1,0 +1,19 @@
+{
+  "task": "binance-02-swap",
+  "variant": "malicious",
+  "chain_id": 1,
+  "block": 26300772,
+  "timestamp_utc": "2026-10-29 20:24:47 UTC",
+  "tx_hash": null,
+  "tx_type": 2,
+  "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+  "to": "0xd88455e4963dd2aefb90b6e91ab305c30b1c0536",
+  "value_eth": 28005.600000000002,
+  "nonce": 15703491,
+  "gas": 21000,
+  "max_fee_gwei": 170.0,
+  "input": "0x",
+  "decoded_input": null,
+  "safe_tx": null,
+  "swap_of": "binance-02"
+}

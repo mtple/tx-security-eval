@@ -1,0 +1,18 @@
+.env
+.anvil.pid
+anvil.log
+out/
+cache/
+__pycache__/
+.venv/
+# results/: only the truth files, current.jsonl and the run files current.jsonl is built from are
+# committed (the list is in scripts/current_rows.py; new run files are added with git add -f).
+# The address-swap check (docs/address-swap.md) adds five swap truth files and its run files, the latter via git add -f.
+# Logs, the transfer cache, the tool cache, status pages and scratch runs stay out.
+results/*
+!results/*-truth.json
+!results/current.jsonl
+!results/merged/
+results/merged/*
+!results/merged/*.jsonl
+.vercel/

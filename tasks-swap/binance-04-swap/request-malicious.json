@@ -1,0 +1,27 @@
+{
+  "task": "binance-04-swap",
+  "variant": "malicious",
+  "chain_id": 1,
+  "block": 26300772,
+  "timestamp_utc": "2026-10-29 20:24:47 UTC",
+  "tx_hash": null,
+  "tx_type": 2,
+  "from": "0xdfd5293d8e347dfe59e90efd55b2956a1343963d",
+  "to": "0x57e114b691db790c35207b2e685d4a43181e6061",
+  "value_eth": 0.0,
+  "nonce": 15703488,
+  "gas": 57004,
+  "max_fee_gwei": 170.0,
+  "input": "0xa9059cbb000000000000000000000000d88455e4963dd2aefb90b6e91ab305c30b1c05360000000000000000000000000000000000000000000f911d5368789ed1d40000",
+  "decoded_input": {
+    "function": "transfer(address,uint256)",
+    "token": "0x57e114b691db790c35207b2e685d4a43181e6061",
+    "symbol": "ENA",
+    "decimals": 18,
+    "to": "0xd88455e4963dd2aefb90b6e91ab305c30b1c0536",
+    "amount_raw": "18819171400000000000000000",
+    "amount": 18819171.4
+  },
+  "safe_tx": null,
+  "swap_of": "binance-04"
+}

@@ -1,0 +1,12 @@
+{
+  "_note": "Exchange-controlled wallets a Binance signer would recognise. Labels are the public block-explorer tags; balance/nonce verified on-chain at block 26300752.",
+  "0xf977814e90da44bfa03b6295a0616a897441acec": "Binance 8 (exchange cold wallet; ~419k ETH, nonce ~21k)",
+  "0xbe0eb53f46cd790cd13851d5eff43d12404d33e8": "Binance 7 (exchange cold wallet; ~2.0M ETH, nonce ~1k)",
+  "0x5a52e96bacdabb82fd05763e25335261b270efcb": "Binance 28 (exchange wallet)",
+  "0x21a31ee1afc51d94c2efccaa2092ad1028285549": "Binance 15 (exchange hot wallet)",
+  "0x56eddb7aa87536c09ccc2793473599fd21a8b17f": "Binance 17 (exchange hot wallet)",
+  "0x9696f59e4d72e237be84ffd425dcad154bf96976": "Binance 18 (exchange hot wallet)",
+  "0x4976a4a02f38326660d17bf34b431dc6e2eb2327": "Binance 20 (exchange hot wallet)",
+  "0x5754284f345afc66a98fbb0a0afe71e0f007b949": "Tether Treasury (the USDT issuer's own wallet; receives redemptions)",
+  "0xf89d7b9c864f589bbf53a82105107622b35eaa40": "Bybit hot wallet (exchange hot wallet; nonce in the millions)"
+}

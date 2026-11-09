@@ -1,0 +1,49 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "docs",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/walkthrough",
+      "destination": "/walkthrough/",
+      "permanent": true
+    },
+    {
+      "source": "/overview",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/report",
+      "destination": "/full-report",
+      "permanent": true
+    },
+    {
+      "source": "/launch/site",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/post",
+      "destination": "/",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/overview"
+    },
+    {
+      "source": "/full-report",
+      "destination": "/report"
+    },
+    {
+      "source": "/og.png",
+      "destination": "/launch/site/og.png"
+    }
+  ]
+}
