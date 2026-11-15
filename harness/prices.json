@@ -16,5 +16,8 @@
   "deepseek/deepseek-v4-pro-0813":     {"input": 1.32, "output": 3.96, "source": "DeepSeek API peak-hour list price, checked Nov 8 2026"},
   "deepseek/deepseek-v4.1-flash-1017": {"input": 0.30, "output": 1.20, "source": "DeepSeek API peak-hour list price, checked Nov 8 2026; off-peak is half"},
   "upstage/solar-mini4":               {"input": 0.10, "output": 0.40, "source": "Upstage API list price, checked Nov 8 2026"},
+  "jev-latest":        {"input": 0.042, "output": 0.0, "source": "TypeSafe list price as quoted by its distributors (Cloudflare, DigitalOcean), checked Nov 15 2026: $0.042 per 1M input tokens, output free; confirm on typesafe.ai before publishing"},
+  "jev-1.14.0":        {"input": 0.042, "output": 0.0, "source": "same as jev-latest"},
+  "jev-1.13.0":        {"input": 0.042, "output": 0.0, "source": "same as jev-latest"},
   "fake":              {"input": 0.0,  "output": 0.0}
 }
